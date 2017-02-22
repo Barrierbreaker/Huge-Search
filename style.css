@@ -1,3 +1,43 @@
-Hm6 .li{
-   list-style: none;
+body{
+    background-color:#f1f1f1;
+}
+.navigation{
+   font-size:  Arial, sans-serif;
+    
+}
+.navigation ul{
+    display: inline-block;
+     margin-top: 40px;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 0;
+
+}
+.navigation li:hover {
+	background-color:rgba(118,117,128,0.1);
+    color:#ec5a62;/*(цвет выделенного текста)*/
+}
+.navigation li{
+    background-color:  rgba(118,117,128,0.05);
+    list-style: none; /* прячем маркеры */
+       
+    
+}
+.navigation li { /*свойства для стиля меню */
+     font-size: 180%;
+    font-family: Arial, sans-serif;
+	display:block;
+    text-decoration: none;
+    color: white;}
+
+
+.Recent {
+      
+}
+Popular{ 
+    
+}
+
+Recent{ 
+    
 }
