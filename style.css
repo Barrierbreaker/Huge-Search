@@ -11,7 +11,6 @@ body{
     width: 100%;
     padding: 0 20px;
     font-size: 0;
-
 }
 .navigation li:hover {
 	background-color:rgba(118,117,128,0.1);
