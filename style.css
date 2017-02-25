@@ -25,32 +25,38 @@ main {
 .button img {
     width: 60px;
 }
-
-.navigation li:hover {
-	background-color:rgba(118,117,128,0.1);
-    color:#ec5a62;/*(цвет выделенного текста)*/
+h2 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
 }
-.navigation li{
-    background-color:  rgba(118,117,128,0.05);
-    list-style: none; /* прячем маркеры */
-       
-    
+/*-----столбцы----------*/
+.navigation {
+    width: 32%;
+    display: inline-block;
+    margin-right: 10px;
 }
-.navigation li { /*свойства для стиля меню */
-     font-size: 180%;
-    font-family: Arial, sans-serif;
-	display:block;
-    text-decoration: none;
-    color: white;}
-
-
-.Recent {
-      
+.navigation p {
+    display: block;
+    line-height: 60px;
+    background-color: rgba(118,117,128,0.05);
+    margin-bottom: 7px;
+    border-radius: 7px;
+    padding:10px;
+    font-size: 1rem;
+    color: #c2c2c2;
+    font-weight: bold;
 }
-Popular{ 
-    
+.navigation p:hover {
+    background-color: rgba(118,117,128,0.1);
+    color: #ec5a62;
 }
-
-Recent{ 
-    
+.navigation img {
+    vertical-align: middle;
+    width: 50px;
+    margin-right: 20px;
+}
+.people p img {
+    border-radius: 50%;
 }
