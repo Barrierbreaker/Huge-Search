@@ -1,17 +1,31 @@
-body{
-    background-color:#f1f1f1;
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    color: #c2c2c2;
 }
-.navigation{
-   font-size:  Arial, sans-serif;
-    
+main {
+    width: 1100px;
+    margin: 0 auto;
+   
 }
-.navigation ul{
-    display: inline-block;
-     margin-top: 40px;
-    width: 100%;
-    padding: 0 20px;
-    font-size: 0;
+/*---поиск---*/
+.search {
+    border: none;
+    background: none;
+    width: 90%;
+    margin-top: 10px;
+    height: auto;
+    color: #ec5a62;
+    font-weight: bold;
+    font-size: 80px;
 }
+::-webkit-input-placeholder { /* использовать свойства для изменения вида текста,  */
+  color: #c2c2c2;
+}
+.button img {
+    width: 60px;
+}
+
 .navigation li:hover {
 	background-color:rgba(118,117,128,0.1);
     color:#ec5a62;/*(цвет выделенного текста)*/
