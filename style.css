@@ -1,0 +1,62 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    color: #c2c2c2;
+}
+main {
+    width: 1100px;
+    margin: 0 auto;
+   
+}
+/*---поиск---*/
+.search {
+    border: none;
+    background: none;
+    width: 90%;
+    margin-top: 10px;
+    height: auto;
+    color: #ec5a62;
+    font-weight: bold;
+    font-size: 80px;
+}
+::-webkit-input-placeholder { /* использовать свойства для изменения вида текста,  */
+  color: #c2c2c2;
+}
+.button img {
+    width: 60px;
+}
+h2 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/*-----столбцы----------*/
+.navigation {
+    width: 32%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.navigation p {
+    display: block;
+    line-height: 60px;
+    background-color: rgba(118,117,128,0.05);
+    margin-bottom: 7px;
+    border-radius: 7px;
+    padding:10px;
+    font-size: 1rem;
+    color: #c2c2c2;
+    font-weight: bold;
+}
+.navigation p:hover {
+    background-color: rgba(118,117,128,0.1);
+    color: #ec5a62;
+}
+.navigation img {
+    vertical-align: middle;
+    width: 50px;
+    margin-right: 20px;
+}
+.people p img {
+    border-radius: 50%;
+}
